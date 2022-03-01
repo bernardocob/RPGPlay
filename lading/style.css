@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar{
+    width: 100%;
+    background: rgba(61, 61, 61, 0.959) ;
+    color: #eee;
+    height: 5.5em;
+    transition: 0.2s;
+}
+#navbar-container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    margin-top: 1em;
+   
+}
+.logo-area{
+    max-width: 250px;
+    padding: 0;
+}
+.login{
+    font-size: 14pt;
+}
+#navbar-itens{
+    display: flex;
+    text-transform: uppercase;
+}
+
+#navbar-itens li{
+    padding-right: 4em;
+}
+#landing{
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),url(imgs/bg-taverna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50em;
+}
+#landing-container{
+    width: 80%; 
+    margin-left: 6.8em;
+    padding: 12.5em 2em 5em 2em;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+}
+.texto-p{
+    margin-top: 2em;
+    font-size: 15pt;
+    padding: 1em 3em 0 3em;
+}
+.btn-start>h3{
+    border: 1px    ;
+    border-style: double;
+    border-radius: 2em;
+    font-size: 20pt;
+    width: 60%;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.247);
+    transition: 0.5s;
+    margin: 3em auto;
+}
+
+.btn-start>h3:hover{
+    background-color: rgba(211, 166, 41, 0.548);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#footer{
+    background: rgba(36, 36, 36, 0.959);
+    padding: 1.5em;
+    text-align: center;
+    color: rgb(214, 214, 214);
+}
+#footer a:hover{
+    color: rgb(252, 252, 252);
+}

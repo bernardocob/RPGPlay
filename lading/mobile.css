@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+}
+
+#landing{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url(imgs/bg-taverna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+#landing-container{
+    margin: 0 auto;
+    padding-top: 5em;
+}
+    
+#landing-container .titulo{
+    font-size: 25pt;
+}
+
+#landing-container .texto-p{
+    font-size: 15pt;
+    padding: 20px 0 20px 0;
+}
+
+.btn-start h3{
+    width: 100%;
+    font-size: 16pt;
+    padding: 10px;
+    border-width: 8px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
+
