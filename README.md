@@ -1,2 +1,2 @@
 # RPGPlay
-Plataforma de RPG
+Plataforma de RPG ainda em desenvolvimento.
