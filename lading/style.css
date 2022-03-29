@@ -7,6 +7,11 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),url(imgs/bg-taverna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 a{
@@ -16,7 +21,7 @@ a{
 
 #navbar{
     width: 100%;
-    background: rgba(61, 61, 61, 0.959) ;
+    background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     color: #eee;
     height: 5.5em;
     transition: 0.2s;
@@ -50,13 +55,7 @@ a{
 #navbar-itens li{
     padding-right: 4em;
 }
-#landing{
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),url(imgs/bg-taverna.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50em;
-}
+
 #landing-container{
     width: 80%; 
     margin-left: 6.8em;
@@ -76,8 +75,8 @@ a{
     padding: 1em 3em 0 3em;
 }
 .btn-start>h3{
-    border: 1px    ;
-    border-style: double;
+    border: 1px;
+    border: 1px solid white;
     border-radius: 2em;
     font-size: 20pt;
     width: 60%;

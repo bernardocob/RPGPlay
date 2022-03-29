@@ -1,21 +1,115 @@
+/* pre-sets iniciais começa */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-
-#navbar-container .logo img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 150px;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
-#gamewChat{
-    display: relative;
+/* pre-sets iniciais acaba */
+
+
+/* navbar começa */
+#navbar{
+    width: 100%;
+}
+#nav-container{
+    display: flex;
+    margin: 1em;
+}
+#logo{
+    width: 70%;
+    
 }
 
-canvas{
-    width: 75%;
+#nav-botton{
+    border: 1px solid red;
+    text-align: center;
+}
+
+#nav-botton ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#nav-botton .nav-links{
+    font-size: 12pt;
+    
+}
+/* navbar acaba */
+
+#main{
+    margin: 1em 2em 1em 2em;
+}
+#main-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#left{
+    width: 90%;
+    padding: 0.5em;
+}
+
+#tittle{
+    font-size: 2.5em;
+}
+
+#left p{
+    padding: 1em 0 1em 0;
+    font-size: 12pt;
+}
+
+#sub-tittle{
+    font-size: 25pt;
+    padding: 0 0 0.4em 0;
+}
+
+#campanha-input{
+    width: 50%;
+    height: 30px;
+    margin: 0 0 1em 0;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+#tag-input{
+    width: 43.5%;
+    padding: 2px;
+    border: 1px solid grey;
+    margin: 0 0 4em 0;
+}
+
+#btn-form{
+    border-radius: 5px;
+    padding: 1em;
+    background-color: gold;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#btn-form:hover{
+    background-color: rgb(255, 225, 52);
+    color: rgb(46, 46, 46);
+}
+
+#options-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 15px 50px;
+}
+.game-options{
+    border: 1px solid green;
+    text-align: center;
+    padding: 4em 0;
+    margin: 0.5em;
 }

@@ -5,29 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>jogar</title>
 </head>
 <body>
-    <section id="navbar">
-        <div id="navbar-container">
-            <nav>
-                <a href="" class="logo"><img src="imgs/logo.png" alt=""></a>
-            </nav>
-        </div>
-    </section>
-    <section id="gamewChat">
-        <div id="game">
-            <div id="game-container">
-                <canvas width="1000" height="650">
+   <section id="navbar">
+       <nav id="nav">
+           <div id="nav-container">
+               <div id="nav-top"></div>
+                    <a href="">
+                        <h1><img src="imgs/logo.png" alt="" id="logo"></h1>
+                    </a>
+               </div>
+               <div id="nav-botton">
+                   <ul>
+                       <li><a href="" class='nav-links'>início</a></li>
+                       <li><a href="" class='nav-links'>jogos</a></li>
+                       <li><a href="" class='nav-links'>explorar</a></li>
+                       <li><a href="" class='nav-links'>mercado</a></li>
+                       <li><a href="" class='nav-links' onclick="jogoEscolhido()">comunidade</a></li>
+                       <li><a href="" class='nav-links'>buy a coffee</a></li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+   </section>
+   <section id="main">
+       <div id="main-container">
+           <div id="left">
+                <h1 id="tittle">Começe uma nova jornada</h1>
+                <p>Para iniciar uma nova campanha, apenas dê um nome a ela, coloque algumas tags para organização, e (se voce quiser) escolha nas opções adicionais a baixo. Depois é só clicar no botão "Criar Campanha".</p>
+                <form>
+                    <h1 id="sub-tittle">Nome & Marcações</h1>
+                    <input type="text" name="" id="campanha-input" placeholder="nome da campanha...">
+                    <div id="tag-container">
+                        <label for="tag">tags</label>
+                        <input type="text" name="tag" id="tag-input">
+                    </div>
+                    <a href="" id='btn-form'>Estou pronto, Criar Jogo!</a>
+                </form>
+           </div>
+           <div id='right'>
 
-                </canvas>
-            </div>
-        </div>
-        <div id="chat">
-            <div id="chat-container">
-
-            </div>
-        </div>
-    </section>
+                <div id="right-container">
+                    <div id='options-container'>
+                        <div class="game-options" onclick="jogoEscolhido()">
+                            <h3>jogo 1</h3>
+                        </div>
+                        <div class="game-options" onclick="jogoEscolhido()">
+                            <h3>jogo 2</h3>
+                        </div>
+                        <div class="game-options" onclick="jogoEscolhido()">
+                            <h3>jogo 3</h3>
+                        </div>
+                        <div class="game-options" onclick="jogoEscolhido()">
+                            <h3>jogo 4</h3>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </section>
 </body>
 </html>

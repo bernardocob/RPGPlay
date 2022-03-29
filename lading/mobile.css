@@ -5,6 +5,7 @@
 }
 #navbar{
     display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #landing{
@@ -35,8 +36,8 @@
     width: 100%;
     font-size: 16pt;
     padding: 10px;
-    border-width: 8px;
-    background-color: rgba(0, 0, 0, 0.247);
+   
+    background-color: rgba(0, 0, 0, 0.644);
 }
 
 
